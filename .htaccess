@@ -1,0 +1,48 @@
+#remove html file extension https://jupiter.silviuandrei.com/index.html
+# to https://jupiter.silviuandrei.com/index
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/caracteristici-fizice.html
+# to https://jupiter.silviuandrei.com/caracteristici-fizice
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/orbita-si-rotatie.html
+# to https://jupiter.silviuandrei.com/orbita-si-rotatie
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/istoricul-cercetarii-si-explorarii.html
+# to https://jupiter.silviuandrei.com/istoricul-cercetarii-si-explorarii
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/sateliti.html
+# to https://jupiter.silviuandrei.com/sateliti
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/interactiunea-cu-sistemul-solar.html
+# to https://jupiter.silviuandrei.com/interactiunea-cu-sistemul-solar
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://jupiter.silviuandrei.com/vizualizare-3d.html
+# to https://jupiter.silviuandrei.com/vizualizare-3d
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]

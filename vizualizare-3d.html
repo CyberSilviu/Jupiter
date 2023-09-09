@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Vizualizare 3D</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="vizualizare-3d.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
+	</head>
+	<header>
+		<section class="top-nav">
+			<div>
+
+			</div>
+			<input id="menu-toggle" type="checkbox" />
+			<label class='menu-button-container' for="menu-toggle">
+			<div class='menu-button'></div>
+		  </label>
+			<ul class="menu">
+              <li><a href="index">Acasă</a></li>
+			  <li><a href="caracteristici-fizice">Caracteristici fizice</a></li>
+			  <li><a href="orbita-si-rotatie">Orbită și rotație</a></li>
+			  <li><a href="istoricul-cercetarii-si-explorarii">Istoricul cercetării și explorării</a></li>
+			  <li><a href="sateliti">Sateliți</a></li>
+			  <li><a href="interactiunea-cu-sistemul-solar">Interacțiunea cu Sistemul Solar</a></li>
+			</ul>
+			<div>
+
+			</div>
+		  </section>
+	</header>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+		<h1><a href="vizualizare-3d">Vizualizare 3D</a></h1>
+		<div class="wrapper">
+			<div class="continue-section">
+				<div class="continue-area">
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Jupiter" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5322e7ba8e1848268152e6f82187861d/embed"> </iframe> </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
